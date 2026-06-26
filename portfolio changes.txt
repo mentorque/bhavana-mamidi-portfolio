@@ -1,0 +1,20 @@
+Portfolio content & structure (living reference)
+
+SITE CONFIG (`src/config/site.ts`)
+- CONTACT_EMAIL — mamidibhavana23@gmail.com
+- RESUME_PATH — default `/resume.pdf`; add PDF as `public/resume.pdf` when available
+
+HERO
+- Profile image: `public/Bhavana-Mamidi_Profile.png` (updated from candidate photo)
+- OG preview: `public/Bhavana-Mamidi_Preview.png` (placeholder — replace with 1200×630 preview image)
+
+PENDING UPDATES
+- LinkedIn: https://www.linkedin.com/in/bhavana-mamidi-47202a172
+- B.E. dates estimated as 2013–2017 (not on resume) — confirm with candidate
+- Company logos: meghana-auto-logo.svg, abtran-logo.png, accenture.png, telus-logo.png, amazon-logo.png
+- Project images: two-wheeler-project.webp, kpidash.jpg, dms.png
+
+DEPLOYMENT
+- Netlify: `npm run build`, publish `dist`
+- Repo name: `bhavana-mamidi_portfolio`
+- Site name: `bhavana-mamidi` → https://bhavana-mamidi.netlify.app
