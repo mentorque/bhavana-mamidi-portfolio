@@ -81,6 +81,21 @@ const ExperienceSection = () => {
       ],
       technologies: ["Data Operations", "Process Analysis", "Training & Onboarding", "Quality Metrics", "High-Volume Processing"],
     },
+    {
+      company: "MyClass Board",
+      position: "Inside Sales Manager",
+      location: "India",
+      duration: "Apr 2019 – Aug 2019",
+      logoSrc: "/mcb-logo.png",
+      logoAlt: "MyClass Board",
+      achievements: [
+        { impact: "Regional team leadership", description: "Managed a team of 10 members across another region, coordinating daily sales activity and performance." },
+        { impact: "Lead generation", description: "Generated leads by engaging with customers through phone and email outreach." },
+        { impact: "Target-driven planning", description: "Developed operational plans aligned to sales targets and tracked progress against goals." },
+        { impact: "Field team training", description: "Trained new employees who would work on the field, supporting ramp-up and consistent delivery standards." },
+      ],
+      technologies: ["Inside Sales", "Lead Generation", "Team Leadership", "Operational Planning", "Training", "Phone & Email Outreach"],
+    },
   ];
 
   return (

@@ -5,8 +5,8 @@ import heroBackground from "@/assets/hero-background-modern.jpg";
 import { RESUME_PATH } from "@/config/site";
 
 const HeroSection = () => {
-  const scrollToProjects = () => {
-    document.querySelector("#projects")?.scrollIntoView({ behavior: "smooth" });
+  const scrollToResearch = () => {
+    document.querySelector("#research")?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -44,8 +44,8 @@ const HeroSection = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12 animate-slide-up" style={{ animationDelay: "0.15s" }}>
-          <Button type="button" onClick={scrollToProjects} size="lg" className="bg-[hsl(var(--primary))] hover:bg-[hsl(var(--primary))]/90 text-primary-foreground font-medium px-8 py-6 text-base rounded-lg shadow-md transition-all duration-200 hover:scale-[1.02] border-0">
-            View Projects
+          <Button type="button" onClick={scrollToResearch} size="lg" className="bg-[hsl(var(--primary))] hover:bg-[hsl(var(--primary))]/90 text-primary-foreground font-medium px-8 py-6 text-base rounded-lg shadow-md transition-all duration-200 hover:scale-[1.02] border-0">
+            View Research
           </Button>
           <Button type="button" size="lg" variant="outline" className="border border-white/50 bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 font-medium px-8 py-6 text-base rounded-lg transition-all duration-200 hover:scale-[1.02]" asChild>
             <a href={RESUME_PATH} download="Bhavana_Mamidi_Resume.pdf">

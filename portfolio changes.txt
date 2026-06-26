@@ -12,7 +12,8 @@ PENDING UPDATES
 - LinkedIn: https://www.linkedin.com/in/bhavana-mamidi-47202a172
 - B.E. dates estimated as 2013–2017 (not on resume) — confirm with candidate
 - Company logos: meghana-auto-logo.svg, abtran-logo.png, accenture.png, telus-logo.png, amazon-logo.png
-- Project images: two-wheeler-project.webp, kpidash.jpg, dms.png
+- Research Experience section replaces Projects (MBA + GRIET engineering research)
+- Project images: two-wheeler-project.webp (MBA research only)
 
 DEPLOYMENT
 - Netlify: `npm run build`, publish `dist`

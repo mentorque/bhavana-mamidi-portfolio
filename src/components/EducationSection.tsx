@@ -9,8 +9,6 @@ const EducationSection = () => {
       degree: "MBA (Master of Business Administration)",
       dates: "2017 – 2019",
       coursework: [
-        "Promotional Planning for Two-Wheelers (research project)",
-        "Customer surveys & MS Excel analytics",
         "Merit-based scholarship",
         "Young Manager — Arohan 2019",
       ],
