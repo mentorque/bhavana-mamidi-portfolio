@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import profileImage from "/Bhavana-Mamidi_Profile.png";
 import heroBackground from "@/assets/hero-background-modern.jpg";
+import { RESUME_PATH } from "@/config/site";
 
 const HeroSection = () => {
   const scrollToProjects = () => {
@@ -46,8 +47,10 @@ const HeroSection = () => {
           <Button type="button" onClick={scrollToProjects} size="lg" className="bg-[hsl(var(--primary))] hover:bg-[hsl(var(--primary))]/90 text-primary-foreground font-medium px-8 py-6 text-base rounded-lg shadow-md transition-all duration-200 hover:scale-[1.02] border-0">
             View Projects
           </Button>
-          <Button type="button" size="lg" variant="outline" className="border border-white/50 bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 font-medium px-8 py-6 text-base rounded-lg transition-all duration-200 hover:scale-[1.02]" onClick={(e) => e.preventDefault()}>
-            Resume
+          <Button type="button" size="lg" variant="outline" className="border border-white/50 bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 font-medium px-8 py-6 text-base rounded-lg transition-all duration-200 hover:scale-[1.02]" asChild>
+            <a href={RESUME_PATH} download="Bhavana_Mamidi_Resume.pdf">
+              Resume
+            </a>
           </Button>
         </div>
       </div>

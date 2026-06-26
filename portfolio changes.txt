@@ -2,7 +2,7 @@ Portfolio content & structure (living reference)
 
 SITE CONFIG (`src/config/site.ts`)
 - CONTACT_EMAIL — mamidibhavana23@gmail.com
-- RESUME_PATH — default `/resume.pdf`; add PDF as `public/resume.pdf` when available
+- RESUME_PATH — `/resume.pdf` (Bhavana Mamidi resume)
 
 HERO
 - Profile image: `public/Bhavana-Mamidi_Profile.png` (updated from candidate photo)
